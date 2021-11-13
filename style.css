@@ -1,8 +1,96 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/*** The new CSS Reset - version 1.3.1 (last updated 28.10.2021) ***/
+/* https://github.com/elad2412/the-new-css-reset */
+
+*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+    all: unset;
+    display: revert;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+textarea {
+    white-space: revert;
+}
+
+body {
+    --space: 1.5rem;
+    --headline-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    --text-font: 'EB Garamond', serif;
+    --small-font: var(--headline-font);
+    padding: 0 clamp(calc(var(--space)/4), 5vw, 15rem);
+    font-family: var(--text-font);
+    font-size: clamp(.825rem, 3vw, 2.75rem);
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    color: #444;
+    font-size: 220%;
+    font-family: var(--headline-font); 
+    font-weight: 700;
+}
+p {
+    font-size: 120%;
+}
+p * p {
+    margin-top: var(--space);
+}
+h1, .h1 {
+    font-size: 275%;
+}
+h2, .h2 {
+    font-size: 225%;
+}
+h3, .h3 {
+    font-size: 200%;
+}
+h4, .h4 {
+    font-size: 175%;
+}
+time {
+    font-family: var(--small-font);
+}
+small, .small {
+    font-size: 90%;
+}
+.tight {
+    line-height: 1;
+}
+
+@media print {
+    body {
+        font-size: 10pt;
+    }
+    @page { margin: 2cm }
+}
+
+
+.flex {
+    display: flex;
+}
+.db {
+    display: block;
+}
+
+
+.enhance {
+    position: absolute;
+    padding-right: 18px;
+    top: 0;
+    right: 0;
 }
