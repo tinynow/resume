@@ -18,28 +18,41 @@
 
 <body>
     <header>
-        <p class=""><span class="db small tight">The website of</span> <span class="h3 db tight">Matt Kreiling</span>
-        </p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#main" aria-current="page">Resume</a>
-                </li>
-                <li>
-                    <a href="https://matt-kreiling.website/">Projects</a>
-                </li>
-            </ul>
-        </nav>
+        <svg viewBox="0 0 100 150" class="logo" width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+            <path vector-effect="non-scaling-stroke"
+                d="m59 74 41-74M59 74h41m-41 0 42 90M59 74 1 123m58-49H1m58 0L25 24m34 50 31-18M59 74l-33 83m33-83 21 20M59 74 15 95m44-21L25 56m34 18 1-39" />
+            <path vector-effect="non-scaling-stroke"
+                d="M59 74v38M48 91l-9 12m-28-6-7 3m36-22-21 3m3-27-7-4m45-18V22m10 21 7-17M55 60l-6-21m35 59 12 12M74 79l14 6m6-31 8-5m-22 5 8-8" />
+        </svg>
+        <div>
+
+            <p class="banner__text"><span class="db small tight">The website of</span> <span class="h4 db tight">Matt
+                    Kreiling</span>
+            </p>
+            <nav class="main-nav">
+                <ul>
+                    <li>
+                        a <a href="#main" aria-current="page">resume</a>,
+                    </li>
+                    <li>
+                        some <a href="https://matt-kreiling.website/">projects</a>
+                    </li>
+                    <li>and some <a href="blog">writing</a>.</li>
+                </ul>
+            </nav>
+        </div>
+
         <div class="enhance js">
             <label for="progressor">powered by</label>
-            <select id="progressor">
-                <option value="html">only HTML</option>
-                <option value="css">only HTML and CSS</option>
-                <option value="js">HTML, CSS, and JS</option>
+            <select id="progressor" class="system">
+                <option value="html">HTML</option>
+                <option value="css">HTML <span class="serif">&amp;</span> CSS</option>
+                <option value="js">HTML, CSS, <span class="serif">&amp;</span> JS</option>
             </select>
         </div>
     </header>
-    <main id="main">
+
+    <main id="main" class="prose">
         <h2>Motivation</h2>
         <p>I want my life and work to consist of a mix of activities and to have a particular impact on the world.</p>
         <p>My work, or the intentional activities for which I get paid, should consist of activities such as coding,
@@ -48,75 +61,69 @@
         <p>These work activities need to serve a healthy, equitable and sustainable future.</p>
 
         <h2>History</h2>
-        <ul>
-            <li>
-                <span>
+        <ul class="not-prose timeline">
+            <li class="event">
+                <span class="event__time">
                     <time datetime="2015-10">October 2015</time> - <time>Present</time>
                 </span>
-                <p>Front End Developer @ Washington State Labor &amp; Industries</p>
+                <p class="event__title">Front End Developer</p>
+                <p class="event__description">Washington State Labor &amp; Industries</p>
             </li>
-            <li>
-                <span>
+            <li class="event">
+                <span class="event__time">
                     <time datetime="2010">2010</time> - <time datetime="2015">2015</time>
                 </span>
-                <p>Freelance Web Developer @ Tinynow Design</p>
+                <p class="event__title">Freelance Web Developer</p>
+                <p class="event__description">Tinynow Design</p>
             </li>
-            <li>
-                <span>
+            <li class="event">
+                <span class="event__time">
                     <time datetime="2008">Spring 2008</time> &amp; <time datetime="2009">Spring 2009</time>
                 </span>
-                <p>Assistant Page School Teacher @ Washington State Legislature</p>
+                <p class="event__title">Assistant Page School Teacher</p>
+                <p class="event__description">Washington State Legislature</p>
             </li>
-            <li>
-                <span>
-                    <time datetime="2007-07">July 2007</time> to <time datetime="2008-08">August 2008</time>
+            <li class="event">
+                <span class="event__time">
+                    <time datetime="2007-07">July 2007</time> - <time datetime="2008-08">August 2008</time>
                 </span>
-                <p>Administrator @ Washington Student Lobby (WSL)</p>
+                <p class="event__title">Administrator</p>
+                <p class="event__description">Washington Student Lobby</p>
             </li>
-            <li>
-                ​ <span>
-                    <time datetime="2004-04">April 2004</time> - <time datetime="2007-06">June 2007</time>
-                </span>
-                <p>Evergreen State College BA in Writing and Political Philosophy</p>
-            </li>
-
-            <li>
-                <span>
-                    <time datetime="2002">2002</time> - <time datetime="2004">2004</time>
-                </span>
-                <p>A time of recovery, new direction, moving to the Seattle, then Olympia.</p>
-            </li>
-            <li>
-                <span>
-                    <time datetime="1996">1996</time> - <time datetime="2001">2001</time>
-                </span>
-                <p>A time of wandering, mistakes, and discovery.</p>
-            </li>
-
-            <li>
-                <span>
+            <li class="event">
+                <span class="event__time">
                     <time datetime="2005-09">September 2005</time> - <time datetime="2008-06">June 2008</time>
                 </span>
-                <p>Writing Tutor @ Evergreen State College</p>
+                <p class="event__title">Writing Tutor</p>
+                <p class="event__description">Evergreen State College</p>
             </li>
-
-            <li>
-                ​ <span>
+            <li class="event">
+                ​ <span class="event__time">
+                    <time datetime="2004-04">April 2004</time> - <time datetime="2007-06">June 2007</time>
+                </span>
+                <p class="event__title">Evergreen State College</p>
+                <p class="event__description">BA in Writing and Political Philosophy</p>
+            </li>
+            <li class="event">
+                ​<span class="event__time">
                     <time datetime="1994-09">September 1994</time> - <time datetime="1996-06">June 1996</time>
                 </span>
-                <p>Bard College</p>
+                <p class="event__title">Bard College</p>
             </li>
-            <li>
-                <time datetime="1994">1994</time>
-                <p>Graduate Greenport High School - Honor Roll</p>
-            </li>
-            <li>
-                ​ <time datetime="1976-04-07">April 7, 1976</time>
-                <p>Born. Long Island, NY</p>
+            <li class="event">
+                <time class="event__time" datetime="1994-06">June 1994</time>
+                <p class="event__title">Greenport High School</p>
             </li>
 
         </ul>
     </main>
+    <footer>
+        <svg class="footer-logo" viewBox="0 0 150 150" width="150" height="150" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <path
+                d="m68 83 41-74M68 83h41m-41 0 42 90M68 83l-58 49m58-49H10m58 0L34 33m34 50 31-18M68 83l-33 83m33-83 21 20M68 83l-44 21m44-21L34 65m34-37v110" />
+        </svg>
+    </footer>
     <script>
         document
             .documentElement

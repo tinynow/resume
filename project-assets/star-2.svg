@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
+  <path stroke="currentColor" d="M 59 74 L 100 0 M 59 74 L 100 74 M 59 74 L 101 164 M 59 74 L 1 123 M 59 74 L 1 74 M 59 74 L 25 24 M 59 74 L 90 56 M 59 74 L 26 157 M 59 74 L 80 94 M 59 74 L 15 95 M 59 74 L 25 56 M 58.987 74.472 L 59.652 35.218"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 61.128 123.92"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 61.128 123.92"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 60.434 124.504"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="59.225" y1="74.027" x2="59.191" y2="111.835"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="47.99" y1="91" x2="38.799" y2="102.55"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="10.717" y1="96.727" x2="3.943" y2="100.13"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="39.51" y1="77.868" x2="18.642" y2="80.771"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="21.926" y1="53.954" x2="15.232" y2="50.15"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="60.126" y1="31.487" x2="60.031" y2="22.316"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="70.353" y1="42.914" x2="77.065" y2="25.944"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="55.385" y1="59.504" x2="49.026" y2="39.264"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="84.044" y1="97.64" x2="96.406" y2="109.536"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="73.957" y1="78.9" x2="87.822" y2="84.75"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="93.706" y1="54.056" x2="102.339" y2="48.771"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="79.557" y1="53.919" x2="87.778" y2="45.497"/>
+</svg>
