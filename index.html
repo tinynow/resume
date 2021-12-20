@@ -21,27 +21,116 @@
         <svg viewBox="0 0 100 150" class="logo" width="100" height="150" xmlns="http://www.w3.org/2000/svg">
             <path vector-effect="non-scaling-stroke"
                 d="m59 74 41-74M59 74h41m-41 0 42 90M59 74 1 123m58-49H1m58 0L25 24m34 50 31-18M59 74l-33 83m33-83 21 20M59 74 15 95m44-21L25 56m34 18 1-39" />
-            <path vector-effect="non-scaling-stroke"
+            <path vector-effect="non-scaling-stroke" class="alternate"
                 d="M59 74v38M48 91l-9 12m-28-6-7 3m36-22-21 3m3-27-7-4m45-18V22m10 21 7-17M55 60l-6-21m35 59 12 12M74 79l14 6m6-31 8-5m-22 5 8-8" />
         </svg>
         <div>
-
-            <p class="banner__text"><span class="db small tight">The website of</span> <span class="h4 db tight">Matt
-                    Kreiling</span>
+            <p class="banner__text"> <span class="h4 db">Matt Kreiling</span>
             </p>
             <nav class="main-nav">
                 <ul>
                     <li>
-                        a <a href="#main" aria-current="page">resume</a>,
+                        <a href="#main" aria-current="page">resume</a>
                     </li>
                     <li>
-                        some <a href="https://matt-kreiling.website/">projects</a>
+                        <a href="https://matt-kreiling.website/">projects</a>
                     </li>
-                    <li>and some <a href="blog">writing</a>.</li>
+                    <li><a href="blog">writing</a></li>
                 </ul>
             </nav>
         </div>
+    </header>
 
+    <main id="main">
+
+        <div class="prose">
+            <h2>Profile</h2>
+            <p>Since 2010, professionally and passionately delving into all aspects of website development in freelance
+                and enterprise
+                environments.</p>
+            <p>Since 2010, professionally and passionately delving into all aspects of website development in freelance
+                and enterprise
+                environments.</p>
+            <h3>Vision</h3>
+            <p>To make a significant positive impact, while frequently operating within my <a
+                    href="https://conscious.is/15-commitments/genius">zone of genius</a>,
+                collaborating, and learning.</p>
+            <h3>Tech</h3>
+            <p>HTML, CSS, JS, Vue, Git, VS Code, Node, Backbone, WordPress, Velocity, Webpack, Vite, Serverless
+                Functions (Lamdas)</p>
+            <h3>Strengths</h3>
+            <p>coding,
+                design (interface, systems), writing, communicating, facilitating group activities like human centered
+                design, group decision-making, team building. Most important, I need to be learning much of the time.
+            </p>
+
+
+            <h2>Work Experience</h2>
+            <ul class="not-prose timeline">
+                <li class="event">
+                    <span class="event__time">
+                        <time datetime="2015-10">October 2015</time> -
+                        <time>Present</time>
+                    </span>
+                    <p class="event__title">Front End Developer</p>
+                    <p class="event__description">Washington State Labor &amp; Industries</p>
+                </li>
+                <li class="event">
+                    <span class="event__time">
+                        <time datetime="2010">2010</time> - <time datetime="2015">2015</time>
+                    </span>
+                    <p class="event__title">Freelance Web Developer</p>
+                    <p class="event__description">Tinynow Design</p>
+                </li>
+                <li class="event">
+                    <span class="event__time">
+                        <time datetime="2008">Spring 2008</time> &amp; <time datetime="2009">Spring 2009</time>
+                    </span>
+                    <p class="event__title">Assistant Page School Teacher</p>
+                    <p class="event__description">Washington State Legislature</p>
+                </li>
+                <li class="event">
+                    <span class="event__time">
+                        <time datetime="2007-07">July 2007</time> - <time datetime="2008-08">August 2008</time>
+                    </span>
+                    <p class="event__title">Administrator</p>
+                    <p class="event__description">Washington Student Lobby</p>
+                </li>
+                <li class="event">
+                    <span class="event__time">
+                        <time datetime="2005-09">September 2005</time> - <time datetime="2008-06">June 2008</time>
+                    </span>
+                    <p class="event__title">Writing Tutor</p>
+                    <p class="event__description">Evergreen State College</p>
+                </li>
+            </ul>
+            <h2>Education</h2>
+            <ul class="not-prose timeline">
+                <li class="event"><span class="event__time">
+                        <time datetime="2004-04">April 2004</time> - <time datetime="2007-06">June 2007</time>
+                    </span>
+                    <p class="event__title">Evergreen State College</p>
+                    <p class="event__description">BA in Writing and Political Philosophy</p>
+                </li>
+                <li class="event"><span class="event__time">
+                        <time datetime="1994-09">September 1994</time> - <time datetime="1996-06">June 1996</time>
+                    </span>
+                    <p class="event__title">Bard College</p>
+                </li>
+                <li class="event">
+                    <time class="event__time" datetime="1994-06">June 1994</time>
+                    <p class="event__title">Greenport High School</p>
+                </li>
+
+            </ul>
+        </div>
+    </main>
+    <footer class="flex">
+        <svg class="footer-logo" viewBox="0 0 150 150" width="150" height="150" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <path
+                d="m68 83 41-74M68 83h41m-41 0 42 90M68 83l-58 49m58-49H10m58 0L34 33m34 50 31-18M68 83l-33 83m33-83 21 20M68 83l-44 21m44-21L34 65m34-37v110" />
+        </svg>
         <div class="enhance js">
             <label for="progressor">powered by</label>
             <select id="progressor" class="system">
@@ -50,79 +139,6 @@
                 <option value="js">HTML, CSS, <span class="serif">&amp;</span> JS</option>
             </select>
         </div>
-    </header>
-
-    <main id="main" class="prose">
-        <h2>Motivation</h2>
-        <p>I want my life and work to consist of a mix of activities and to have a particular impact on the world.</p>
-        <p>My work, or the intentional activities for which I get paid, should consist of activities such as coding,
-            design (interface, systems), writing, communicating, facilitating group activities like human centered
-            design, group decision-making, team building. Most important, I need to be learning much of the time.</p>
-        <p>These work activities need to serve a healthy, equitable and sustainable future.</p>
-
-        <h2>History</h2>
-        <ul class="not-prose timeline">
-            <li class="event">
-                <span class="event__time">
-                    <time datetime="2015-10">October 2015</time> - <time>Present</time>
-                </span>
-                <p class="event__title">Front End Developer</p>
-                <p class="event__description">Washington State Labor &amp; Industries</p>
-            </li>
-            <li class="event">
-                <span class="event__time">
-                    <time datetime="2010">2010</time> - <time datetime="2015">2015</time>
-                </span>
-                <p class="event__title">Freelance Web Developer</p>
-                <p class="event__description">Tinynow Design</p>
-            </li>
-            <li class="event">
-                <span class="event__time">
-                    <time datetime="2008">Spring 2008</time> &amp; <time datetime="2009">Spring 2009</time>
-                </span>
-                <p class="event__title">Assistant Page School Teacher</p>
-                <p class="event__description">Washington State Legislature</p>
-            </li>
-            <li class="event">
-                <span class="event__time">
-                    <time datetime="2007-07">July 2007</time> - <time datetime="2008-08">August 2008</time>
-                </span>
-                <p class="event__title">Administrator</p>
-                <p class="event__description">Washington Student Lobby</p>
-            </li>
-            <li class="event">
-                <span class="event__time">
-                    <time datetime="2005-09">September 2005</time> - <time datetime="2008-06">June 2008</time>
-                </span>
-                <p class="event__title">Writing Tutor</p>
-                <p class="event__description">Evergreen State College</p>
-            </li>
-            <li class="event">
-                ​ <span class="event__time">
-                    <time datetime="2004-04">April 2004</time> - <time datetime="2007-06">June 2007</time>
-                </span>
-                <p class="event__title">Evergreen State College</p>
-                <p class="event__description">BA in Writing and Political Philosophy</p>
-            </li>
-            <li class="event">
-                ​<span class="event__time">
-                    <time datetime="1994-09">September 1994</time> - <time datetime="1996-06">June 1996</time>
-                </span>
-                <p class="event__title">Bard College</p>
-            </li>
-            <li class="event">
-                <time class="event__time" datetime="1994-06">June 1994</time>
-                <p class="event__title">Greenport High School</p>
-            </li>
-
-        </ul>
-    </main>
-    <footer>
-        <svg class="footer-logo" viewBox="0 0 150 150" width="150" height="150" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true">
-            <path
-                d="m68 83 41-74M68 83h41m-41 0 42 90M68 83l-58 49m58-49H10m58 0L34 33m34 50 31-18M68 83l-33 83m33-83 21 20M68 83l-44 21m44-21L34 65m34-37v110" />
-        </svg>
     </footer>
     <script>
         document
@@ -149,6 +165,20 @@
         enhancer.value = prevValue;
         enhancer.addEventListener('input', (event) => enhance(event.currentTarget.value));
 
+
+        const star = document.querySelector('.logo');
+
+
+        document.body.addEventListener('mousedown', event => {
+            console.log(event)
+            console.log(event.x.toString())
+
+            const { width, height } = window.visualViewport;
+            const x = `calc(${parseInt(event.x / width * 100)}vw - 24vw)`
+            const y = `calc(${parseInt(event.y)}px - 30vw)`
+            // star.style.setProperty('left', x);
+            star.style.setProperty('top', y);
+        })
     </script>
 </body>
 
